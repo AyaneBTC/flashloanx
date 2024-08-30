@@ -11,7 +11,13 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-foundry": "^1.1.2",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@aave/core-v3": "^1.19.3",
+    "@bgd-labs/aave-address-book": "^3.1.1",
+    "@openzeppelin/contracts": "^5.0.2"
   }
 }
